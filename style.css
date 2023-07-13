@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#bingo-container {
+  max-width: 70%;
+  margin-inline: auto;
+}
+
+.bingo-cell {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: lightgray;
+  margin: 3px;
+}
